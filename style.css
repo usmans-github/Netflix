@@ -1,0 +1,472 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+main {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+
+}
+
+main img {
+    height: 98%;
+   width: 100%;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.3;
+}
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 65vw;
+    position: absolute;
+    bottom: 85vh;
+    margin-left: 7vw;
+    margin-right: 10vw;
+    margin-bottom: 1vh;
+
+}
+
+nav img {
+    height: 10vh;
+    width: 13vw;
+    opacity: 1;
+    cursor: pointer;
+}
+
+nav button {
+    height: 5vh;
+    width: 5vw;
+    background-color: rgb(231, 14, 14);
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+.text {
+    height: 60vh;
+    width: 100%;
+    position: absolute;
+    top: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.text h1 {
+    width: 40vw;
+    color: white;
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: 900;
+}
+
+.text .a {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.text .b {
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.button1 {
+    height: 8vh;
+    width: 25vw;
+    background-color: rgba(22, 22, 22, 0.7);
+    color: rgba(218, 216, 216, 0.7);
+    border: 1px solid rgba(128, 128, 128, 0.7);
+    border-radius: 5px;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 700;
+    padding-left: 15px;
+    cursor: text;
+}
+
+.button2 {
+    height: 8vh;
+    width: 12vw;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.line {
+    height: 5px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.flex {
+    background-color: black;
+    padding-top: 1vh;
+    height: 100%;
+    width: 100%;
+
+}
+
+.flex h2 {
+    color: white;
+    margin-left: 10vw;
+    margin-top: 5vh;
+}
+
+.boxes {
+    display: flex;
+    gap: 16px;
+    margin-left: 10vw;
+    margin-top: 3vh;
+    cursor: pointer;
+
+}
+
+.box1 {
+    height: 30vh;
+    width: 19vw;
+    background-color: #6d1a3f;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box2 {
+    height: 30vh;
+    width: 19vw;
+    background-color: #6d1a3f;
+    border-radius: 15px;
+}
+
+.box3 {
+    height: 30vh;
+    width: 19vw;
+    background-color: #6d1a3f;
+    border-radius: 15px;
+}
+
+.box4 {
+    height: 30vh;
+    width: 19vw;
+    background-color: #6d1a3f;
+    border-radius: 15px;
+}
+
+.boxes .p1 {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    padding-inline: 25px;
+    padding-top: 30px;
+}
+
+.boxes .p2 {
+    color: #e7c7d5;
+    height: 2vh;
+    width: 14vw;
+    margin-top: 15px;
+    margin-left: 25px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.boxes .p3 {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 25px;
+    margin-top: 80px;
+}
+
+.h2 {
+    color: white;
+    padding-top: 4vh;
+}
+
+.selection {
+    display: flex;
+    gap: 10px;
+}
+
+.select {
+    height: 6vh;
+    width: 8vw;
+    cursor: pointer;
+}
+
+.select1 select {
+    height: 6vh;
+    width: 7.5vw;
+    margin-left: 10vw;
+    margin-top: 3vh;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.select2 select {
+    height: 6vh;
+    width: 7.5vw;
+    margin-left: 10vw;
+    margin-top: 3vh;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.fleximages {
+    width: 80vw;
+    display: flex;
+    gap: 0.2vw;
+    margin-left: 12vw;
+}
+
+.fleximages img {
+    height: 35vh;
+    width: 13vw;
+    margin-top: 7vh;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+
+}
+
+.fleximages p {
+    color: white;
+    font-size: 5rem;
+    font-weight: 600;
+    margin-top: 31vh;
+    position: relative;
+    right: 15vw;
+}
+
+.fleximage .largebox1 img {
+    width: 80vw;
+    height: 55vh;
+    margin-top: 3vh;
+    margin-left: 10vw;
+    border-radius: 18px;
+}
+
+.boximage img {
+    width: 83vw;
+    margin-left: 8.5vw;
+    height: 40vh;
+}
+
+.faqboxes {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+
+}
+
+.faq1 {
+    background-color: rgb(45 45 45);
+    margin-left: 10vw;
+    height: 11vh;
+    width: 63vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1.5vw;
+    font-size: 1.5rem;
+}
+
+.faq2 {
+
+    background-color: rgb(45 45 45);
+    margin-left: 10vw;
+    height: 11vh;
+    width: 63vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1.5vw;
+    font-size: 1.5rem;
+
+}
+
+.faq3 {
+    margin-left: 10vw;
+    background-color: rgb(45 45 45);
+    width: 63vw;
+    height: 11vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1.5vw;
+    font-size: 1.5rem;
+}
+
+.faq4 {
+    margin-left: 10vw;
+    background-color: rgb(45 45 45);
+    width: 63vw;
+    height: 11vh;
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    padding-left: 1.5vw;
+    font-size: 1.5rem;
+}
+
+.faq5 {
+    margin-left: 10vw;
+    background-color: rgb(45 45 45);
+    width: 63vw;
+    height: 11vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1.5vw;
+    font-size: 1.5rem;
+}
+
+.faq6 {
+    background-color: rgb(45 45 45);
+    width: 63vw;
+    height: 11vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1.5vw;
+    margin-left: 10vw;
+    font-size: 1.5rem;
+}
+.faq1, .faq2, .faq3, .faq4, .faq5, .faq6  img {
+    cursor: pointer;
+}
+.p2h {
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 10vw;
+    margin-top: 10vh;
+}
+
+.buttons2 {
+    margin-left: 10vw;
+    margin-top: 3vh;
+    display: flex;
+    gap: .5vw;
+
+}
+
+.buttons2 .buta {
+    background-color: rgba(22, 22, 22, 0.7);
+    color: rgba(235, 232, 232, 0.7);
+    border: 1px solid rgba(128, 128, 128, 0.7);
+    border-radius: 4px;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-left: 15px;
+    cursor: text;
+    height: 7vh;
+    width: 49vw;
+}
+
+.buttons2 .butb {
+    height: 7vh;
+    width: 13vw;
+    background-color: red;
+    color: white;
+    border: 1px solid rgba(128, 128, 128, 0.7);
+    border-radius: 4px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.qc {
+    color: rgba(232, 232, 232, 0.7);
+    margin-left: 12vw;
+    margin-top: 3vh;
+    text-decoration: underline;
+}
+
+.grid {
+    width: 72vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: rgba(232, 232, 232, 0.7);
+    text-decoration: underline;
+    margin-left: 12vw;
+    margin-top: 5vh;
+    gap: 6vh;
+    text-wrap: nowrap;
+}
+
+.grid ol li {
+    list-style: none;
+    margin-bottom: 2vh;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration-color: rgba(255, 255, 255, 0.7);
+    border-radius: 0.9rem;
+    line-height: 1.5;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.np {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration-color: rgba(255, 255, 255, 0.7);
+    border-radius: 0.125rem;
+    line-height: 1.5;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-left: 12vw;
+    padding-top: 10vh;
+    padding-bottom: 15vh;
+}
+
+/* Mobile styles */
+
+@media only screen and (max-width: 480px) {
+    
+  }
+
+  /* Tablet styles */
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+   
+  }
+  
+  /* Desktop styles */
+
+@media only screen and (min-width: 769px) {
+    
+  }
+  
